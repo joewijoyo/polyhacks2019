@@ -10,8 +10,7 @@ import UIKit
 
 class RecapTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var titleText: UITextView!
-    @IBOutlet weak var recapImage: UIImageView!
+  @IBOutlet var recapImage: UIImageView!
   
     override func awakeFromNib() {
         super.awakeFromNib()

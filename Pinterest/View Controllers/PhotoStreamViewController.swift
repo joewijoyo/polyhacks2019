@@ -43,7 +43,7 @@ class PhotoStreamViewController: UICollectionViewController {
     super.viewDidLoad()
    
     if let patternImage = UIImage(named: "Pattern") {
-      view.backgroundColor = UIColor(patternImage: patternImage)
+      view.backgroundColor = UIColor.white
     }
     collectionView?.backgroundColor = UIColor.clear
     collectionView?.contentInset = UIEdgeInsets(top: 23, left: 10, bottom: 10, right: 10)
@@ -52,6 +52,10 @@ class PhotoStreamViewController: UICollectionViewController {
       layout.delegate = self
     }
   }
+  
+  @IBAction func unwindToVC1(segue:UIStoryboardSegue) { }
+  
+  
   
 }
 
