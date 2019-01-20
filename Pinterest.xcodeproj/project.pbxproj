@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CD2AF1121F3E92800E8CBA9 /* RecapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD2AF1021F3E92800E8CBA9 /* RecapViewController.swift */; };
+		0CD2AF1321F3E9A400E8CBA9 /* RecapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD2AF1221F3E9A400E8CBA9 /* RecapTableViewCell.swift */; };
 		77E6C7691F2E38410015ED2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C7641F2E38270015ED2A /* Images.xcassets */; };
 		77E6C76A1F2E38440015ED2A /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C7651F2E38270015ED2A /* Photos.plist */; };
 		77E6C76B1F2E38470015ED2A /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E6C7661F2E38270015ED2A /* Photos.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CD2AF1021F3E92800E8CBA9 /* RecapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapViewController.swift; sourceTree = "<group>"; };
+		0CD2AF1221F3E9A400E8CBA9 /* RecapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecapTableViewCell.swift; sourceTree = "<group>"; };
 		77E6C75B1F2E38270015ED2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStreamViewController.swift; sourceTree = "<group>"; };
 		77E6C75F1F2E38270015ED2A /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				77E6C75D1F2E38270015ED2A /* PhotoStreamViewController.swift */,
+				0CD2AF1021F3E92800E8CBA9 /* RecapViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -64,6 +69,7 @@
 		77E6C7601F2E38270015ED2A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0CD2AF1221F3E9A400E8CBA9 /* RecapTableViewCell.swift */,
 				77E6C7611F2E38270015ED2A /* AnnotatedPhotoCell.swift */,
 			);
 			path = Views;
@@ -168,6 +174,7 @@
 				TargetAttributes = {
 					7B0AC7B51AAEF90000885D4A = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 868AHG48RK;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -210,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD2AF1121F3E92800E8CBA9 /* RecapViewController.swift in Sources */,
+				0CD2AF1321F3E9A400E8CBA9 /* RecapTableViewCell.swift in Sources */,
 				77E6C76E1F2E385E0015ED2A /* Photo.swift in Sources */,
 				77E6C76D1F2E385E0015ED2A /* PinterestLayout.swift in Sources */,
 				77E6C76C1F2E384A0015ED2A /* AppDelegate.swift in Sources */,
@@ -342,11 +351,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 868AHG48RK;
 				INFOPLIST_FILE = Pinterest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.pinterestlayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.polyhacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -358,11 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 868AHG48RK;
 				INFOPLIST_FILE = Pinterest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.pinterestlayout;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joe.polyhacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
